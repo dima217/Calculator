@@ -61,7 +61,6 @@ void MainWindow::didget_numbers() {
 void MainWindow::stapels()
 {
     QPushButton *button = (QPushButton *)sender();
-
     if (button->text() == "(") {
     if (Num == 1 && close != 1) {
         close = 1;
